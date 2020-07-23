@@ -453,7 +453,7 @@ ol.pg_sec2_ol_ol li {
 }
 button#buttoncalculator {
     border: 1px solid white;
-    padding: 10px 15px;
+    padding: 10px 0px;
     width: 100%;
     font-family: avenir book;
 }
@@ -876,6 +876,17 @@ ol.sec6_container {
 }
 /*MOBILE*/
 @media only screen and (min-width: 300px) and (max-width: 500px){
+
+.courousel-bottom-sec6 {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    background: none;
+    top: 130px;
+}
+.pg_container {
+    padding: 10px;
+}
 .pg_banner {
     content: url("/mattress/image/mobile/main page/banner.jpg");
 }
@@ -951,6 +962,7 @@ span.carousel-control-next-icon{
     width: 40px;
 }
 .sec_3_bann_cont button {
+    display: block;
     background: #6f6985;
     color: white;
     border: 1px solid #6f6985;
@@ -961,6 +973,7 @@ span.carousel-control-next-icon{
     left: 0;
     right: 0;
     margin: auto;
+    font-family: "avenir book";
 }
 .carousel-item{
     text-align: center;
@@ -973,7 +986,7 @@ span.carousel-control-next-icon{
     padding: 0px 0px 10px 0px;
 }
 .carousel-indicators {
-    bottom: 0px;
+    bottom: 0;
     width: 100%;
     margin: auto;
     padding: 10px;
@@ -985,7 +998,7 @@ span.carousel-control-next-icon{
     font-size: 1em;
 }
 button#buttoncalculator {
-    padding: 5px;
+    padding: 5px 2px;
 }
 li.sec2_procedure p {
     font-size: 0.6em;
@@ -1027,8 +1040,8 @@ p.pg_sc1_txt_p {
     font-size: 1em;
 }
 .pg_sec2_imgcont {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     margin: 0px 0px 10px 0px;
 }
 .pg_sec2_imgtit {
@@ -1066,8 +1079,8 @@ ul.sec4_ul li {
     padding: 0px 10px;
 }
 .sec4_img_container {
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
 }
 .sec4_img_tit, .sec5_tit {
     font-size: 0.5em;
@@ -1083,7 +1096,7 @@ p.sec5_st {
     letter-spacing: 2px;
 }
 .sec5_img_cont {
-    width: 150px;
+    width: 125px;
 }
 p.sec5_img_tit {
     letter-spacing: 1px;
@@ -1114,8 +1127,7 @@ p.sec6_tit {
     letter-spacing: 1px;
 }
 .sec6_img_cont {
-    width: 200px;
-
+    width: 80px;
 }
 table.pg_tbl {
     padding: 0px;
@@ -1145,8 +1157,8 @@ li.sec5_cont_container {
 @media only screen and (min-width: 401px) and (max-width: 500px){
 
 video {
-    width: 300px;
-    height: 170px;
+    width: 340px;
+    height: 200px;
 }
 li.sec2_tit p {
     font-size: 1em;
@@ -1175,8 +1187,8 @@ p.pg_sc1_txt_p {
     font-size: 1em;
 }
 .pg_sec2_imgcont {
-    width: 80px;
-    height: 80px;
+    width: 75px;
+    height: 75px;
     margin: 0px 0px 10px 0px;
 }
 .pg_sec2_imgtit {
@@ -1259,8 +1271,7 @@ p.sec6_tit {
     letter-spacing: 1px;
 }
 .sec6_img_cont {
-    width: 200px;
-
+    width: 100px;
 }
 table.pg_tbl {
     padding: 0px;
@@ -1285,10 +1296,32 @@ li.sec5_cont_container {
 }
 
 @media only screen and (min-width: 300px) and (max-width: 359px){
+li.sec2_tit p {
+    font-size: 0.8em;
+}
+.sec_3_bann_cont button {
+    font-size: 0.3em;
+    padding: 5px 10px;
+}
+.pg_sec2_slide_mob {
+    padding: 10px;
+}
 
+li.sec2_st p {
+    font-size: 0.5em;
+}
+
+li.sec2_procedure p {
+    font-size: 0.6em;
+}
+
+button#buttoncalculator {
+    font-size: 0.2em;
+    padding: 5px 0px;
+}
 video {
-    width: 300px;
-    height: 170px;
+    width: 265px;
+    height: 160px;
 }
 ol.sec6_container {
     background: #726e87;
@@ -1308,8 +1341,8 @@ p.pg_sc1_txt_p {
     font-size: 0.8em;
 }
 .pg_sec2_imgcont {
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
     margin: 0px 0px 10px 0px;
 }
 .pg_sec2_imgtit {
@@ -1362,7 +1395,7 @@ p.sec5_st {
     letter-spacing: 2px;
 }
 .sec5_img_cont {
-    width: 150px;
+    width: 110px;
 }
 p.sec5_img_tit {
     letter-spacing: 1px;
@@ -1393,8 +1426,7 @@ p.sec6_tit {
     letter-spacing: 1px;
 }
 .sec6_img_cont {
-    width: 200px;
-
+    width: 65px;
 }
 table.pg_tbl {
     padding: 0px;
