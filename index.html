@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mattress</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/mattress/css/style.css">
+ 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="/mattress/js/function.js"></script>
+</head>
+<body>
+	<div class="pg_container">
+		<table class="pg_tbl">
+			<tr>
+				<td>
+					<div class="pg_banner_container">
+						<img class="pg_banner">
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p class="pg_sc1_txt_p">GET THE PERFECT MATTRESS IN 3 EASY STEPS</p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="pg_sc2_cont">
+						<div class="pg_sec2_slide pg_sec2_cal_desk">
+							<div id="carouselExampleIndicators" class="carousel slide" data-interval="false">
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<ol class="carousel-indicators coursel-desk-sec2">
+											<button id="calnxtbut">NEXT</button>
+											<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+											<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+											<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+											<button id="calprevbut">PREV</button>
+										</ol>										
+										<ol class="pg_slide1" id="pg_step1_box">
+											<li class="sec2_tit"><p>MATTRESS SELECTION GUIDE</p></li>
+											<li class="sec2_st"><p>Find the perfect mattress for you</p></li>
+											<br />
+											<li class="sec2_procedure"><p>STEP 1: CHOOSE YOUR SLEEPING POSTURE</p></li>
+											<li>
+												<ul class="pg_sec2_ul">
+													<li id="liclick">
+														<div class="pg_sec2_imgcont"><img src="/mattress/image/Main Page/Mattress Guide/1.png"></div>
+														<button class="pg_sec2_imgtit" id="buttoncalculator" value="sidesleeper">SIDE SLEEPER</button>
+													</li>
+													<li id="liclick">
+														<div class="pg_sec2_imgcont"><img src="/mattress/image/Main Page/Mattress Guide/3.png"></div>
+														<button class="pg_sec2_imgtit" id="buttoncalculator" value="stomachsleeper">STOMACH SLEEPER</button>
+													</li>
+													<li id="liclick">
+														<div class="pg_sec2_imgcont"><img src="/mattress/image/Main Page/Mattress Guide/2.png"></div>
+														<button class="pg_sec2_imgtit" id="buttoncalculator" value="backsleeper">BACK SLEEPER</button>
+													</li>																		
+													<li id="liclick">
+														<div class="pg_sec2_imgcont"><img src="/mattress/image/Main Page/Mattress Guide/4.png"></div>
+														<button class="pg_sec2_imgtit" id="buttoncalculator" value="allsleepingposition">ALL SLEEPING POSITION</button>
+													</li>									
+												</ul>
+											</li>
+										</ol>
+									</div>
+									<div class="carousel-item">
+										<ol class="carousel-indicators coursel-desk-sec2">
+											<button id="calnxtbut">NEXT</button>
+											<li data-target="#carouselExampleIndicators" data-slide-to="0" ></li>
+											<li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+											<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+											<button id="calprevbut">PREV</button>
+										</ol>											
+										<ol class="pg_slide2" id="pg_step2_box">
+											<li class="sec2_tit"><p>MATTRESS SELECTION GUIDE</p></li>
+											<li class="sec2_st"><p>Find the perfect mattress for you</p></li>
+											<br />
+											<li class="sec2_procedure"><p>STEP 2: CHOOSE YOUR SLEEPING POSTURE</p></li>
+											<li>
+												<ul class="pg_sec2_ul">
+													<li id="liclick">
+														<div class="pg_sec2_imgcont"><img src="/mattress/image/Main Page/Mattress Guide/5.png"></div>
+														<button class="pg_sec2_imgtit" id="buttoncalculator" value="softmattress">SOFT MATTRESS</button>
+													</li>
+													<li id="liclick">
+														<div class="pg_sec2_imgcont"><img src="/mattress/image/Main Page/Mattress Guide/6.png"></div>
+														<button class="pg_sec2_imgtit" id="buttoncalculator" value="mediumfirm">MEDIUM FIRM</button>
+													</li>									
+													<li id="liclick">
+														<div class="pg_sec2_imgcont"><img src="/mattress/image/Main Page/Mattress Guide/7.png"></div>
+														<button class="pg_sec2_imgtit" id="buttoncalculator" value="firmmattress">FIRM MATTRESS</button>
+													</li>																		
+												</ul>
+											</li>
+										</ol>					
+									</div>
+									<div class="carousel-item">
+										<ol class="carousel-indicators coursel-desk-sec2">
+											<button id="calnxtbut">NEXT</button>
+											<li data-target="#carouselExampleIndicators" data-slide-to="0" ></li>
+											<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+											<li data-target="#carouselExampleIndicators" data-slide-to="2" class="active"></li>
+											<button id="calprevbut">PREV</button>
+										</ol>											
+										<ol class="pg_slide1" id="pg_step1_box">
+											<li class="sec2_tit"><p>MATTRESS SELECTION GUIDE</p></li>
+											<li class="sec2_st"><p>Find the perfect mattress for you</p></li>
+											<br />
+											<li class="sec2_procedure"><p>STEP 3: CHOOSE YOUR SLEEPING POSTURE</p></li>
+											<li id="step3banner">
+												<div class="step3_sec2_mid_img_cont">
+													<a href="" id="step3bannerlink"><img class="step3_sec2_mid_img" src="/mattress/image/Main Page/Mattress Guide/8.png"></a>
+												</div>
+												<div><a id="step3finalpro"><button>Click Here</button></a></div>
+											</li>
+										</ol>
+									</div>
+								</div>
+								<a class="carousel-control-prev disabled-link" id="prevbuttonsec2" href="#carouselExampleIndicators" role="button" data-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next disabled-link" id="nxtbuttonsec2" href="#carouselExampleIndicators" role="button" data-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>				
+						</div>
+						<div class="pg_sec2_slide pg_sec2_cal_mob">
+<!---->
+						<div id="carouselExampleControls" class="carousel slide" data-interval="false">
+						  <div class="carousel-inner">
+						    <div class="carousel-item active">
+						     <div class="pg_sec2_slide_mob">
+			                      <ol class="pg_slide1" id="pg_step1_box">
+			                        <li class="sec2_tit"><p>MATTRESS SELECTION GUIDE</p></li>
+			                        <li class="sec2_st"><p>Find the perfect mattress for you</p></li>
+			                        <br />
+			                        <li class="sec2_procedure"><p>STEP 1: CHOOSE YOUR SLEEPING POSTURE</p></li>
+			                        <li>
+			                          <ul class="pg_sec2_ul">
+			                            <li id="liclick">
+			                              <div class="pg_sec2_imgcont"><img src="/mattress/image/Main Page/Mattress Guide/1.png"></div>
+			                              <button class="pg_sec2_imgtit" id="buttoncalculator" value="sidesleeper">SIDE SLEEPER</button>
+			                            </li>
+			                            <li id="liclick">
+			                              <div class="pg_sec2_imgcont"><img src="/mattress/image/Main Page/Mattress Guide/3.png"></div>
+			                              <button class="pg_sec2_imgtit" id="buttoncalculator" value="stomachsleeper">STOMACH SLEEPER</button>
+			                            </li>
+			                            <li id="liclick">
+			                              <div class="pg_sec2_imgcont"><img src="/mattress/image/Main Page/Mattress Guide/2.png"></div>
+			                              <button class="pg_sec2_imgtit" id="buttoncalculator" value="backsleeper">BACK SLEEPER</button>
+			                            </li>                                
+			                            <li id="liclick">
+			                              <div class="pg_sec2_imgcont"><img src="/mattress/image/Main Page/Mattress Guide/4.png"></div>
+			                              <button class="pg_sec2_imgtit" id="buttoncalculator" value="allsleepingposition">ALL SLEEPING POSITION</button>
+			                            </li>                 
+			                          </ul>
+			                        </li>
+			                      </ol>                     
+								<ol class="carousel-indicators mob_cal_indictor">
+									<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+								</ol>			                      
+			                    </div>
+			    			</div>
+			   				 <div class="carousel-item">
+			                    <div class="pg_sec2_slide_mob">
+			                      <ol class="pg_slide2" id="pg_step2_box">
+			                        <li class="sec2_tit"><p>MATTRESS SELECTION GUIDE</p></li>
+			                        <li class="sec2_st"><p>Find the perfect mattress for you</p></li>
+			                        <br />
+			                        <li class="sec2_procedure"><p>STEP 2: CHOOSE YOUR SLEEPING POSTURE</p></li>
+			                        <li>
+			                          <ul class="pg_sec2_ul">
+			                            <li id="liclick">
+			                              <div class="pg_sec2_imgcont"><img src="/mattress/image/Main Page/Mattress Guide/5.png"></div>
+			                              <button class="pg_sec2_imgtit" id="buttoncalculator" value="softmattress">SOFT MATTRESS</button>
+			                            </li>
+			                            <li id="liclick">
+			                              <div class="pg_sec2_imgcont"><img src="/mattress/image/Main Page/Mattress Guide/6.png"></div>
+			                              <button class="pg_sec2_imgtit" id="buttoncalculator" value="mediumfirm">MEDIUM FIRM</button>
+			                            </li>                 
+			                            <li id="liclick">
+			                              <div class="pg_sec2_imgcont"><img src="/mattress/image/Main Page/Mattress Guide/7.png"></div>
+			                              <button class="pg_sec2_imgtit" id="buttoncalculator" value="firmmattress">FIRM MATTRESS</button>
+			                            </li>                                   
+			                          </ul>
+			                        </li>
+			                      </ol><br>
+			                      <ol class="carousel-indicators mob_cal_indictor">
+									<li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+								</ol>
+			                    </div>  
+			   				 </div>
+			    			<div class="carousel-item">
+			      				<div class="pg_sec2_slide_mob">
+			                      <ol class="pg_slide1" id="pg_step1_box">
+			                        <li class="sec2_tit"><p>MATTRESS SELECTION GUIDE</p></li>
+			                        <li class="sec2_st"><p>Find the perfect mattress for you</p></li>
+			                        <br />
+			                        <li class="sec2_procedure"><p>STEP 3: CHOOSE YOUR SLEEPING POSTURE</p></li>
+			                        <li id="step3banner">
+			                        	<div class="step3_sec2_mid_img_cont">
+											<a href="" id="step3bannerlink"><img class="step3_sec2_mid_img" src="/mattress/image/Main Page/Mattress Guide/8.png"></a>
+										</div>
+			                          <div><a id="step3finalpro"><button>Click Here</button></a></div>
+			                        </li>
+			                      </ol><br>
+			                      <ol class="carousel-indicators mob_cal_indictor">
+									<li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="2" class="active"></li>
+								</ol>                     
+			                    </div>
+						    </div>
+						  </div>
+						  <a class="carousel-control-prev disabled-link" id="prevbuttonsec2mob" href="#carouselExampleControls" role="button" data-slide="prev">
+						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						    <span class="sr-only">Previous</span>
+						  </a>
+						  <a class="carousel-control-next disabled-link" id="nxtbuttonsec2mob" href="#carouselExampleControls" role="button" data-slide="next">
+						    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+						    <span class="sr-only">Next</span>
+						  </a>
+						</div>
+<!---->
+						</div>		
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<ol class="pg_sec2_ol">
+						<li class="pg_sec2_ol_li1">
+							<p class="pg_sec2_ol_tit">CHOOSE FROM OUR COLLECTION</p>
+							<p>of some of the best mattresses to support a great night's sleep</p>
+						</li>
+						<li class="pg_sec3_cont_container">
+							<ul class="pg_sec2_ol_ul">
+								<li class="pg_sec2_ol_ul_li1"><div class="sec_3_bann_cont"><img class="pg_sec3_img"><a href=""><button>VIEW RANGE</button></a></div></li>
+								<li class="pg_sec2_ol_ul_li2">
+									<ol class="pg_sec2_ol_ol">
+										<li><div><img src="/mattress/image/Main Page/Mattress Range/twinkle.jpg"></div></li>
+										<li class="sec3_cont_tit"><p>CELEBRITY VIEW</p></li>
+										<li class="sec3_cont_p"><p>Coir mattress are more firm with an eco-friendly filling whereas foam mattresses are soft and durable</p></li>
+										<li><a href=""><button class="sec3_button">VIEW RANGE</button></a></li>
+									</ol>
+								</li>
+							</ul>
+						</li>
+						<li class="pg_sec3_cont_container">
+							<ul class="pg_sec2_ol_ul">
+								<li class="pg_sec2_ol_ul_li2">
+									<ol class="pg_sec2_ol_ol">
+										<li><div><img src="/mattress/image/Main Page/Mattress Range/twinkle.jpg"></div></li>
+										<li class="sec3_cont_tit"><p>CELEBRITY VIEW</p></li>
+										<li class="sec3_cont_p"><p>Bonnel spring mattresses have a continuous coil for extra bounce</p></li>
+										<li><a href=""><button class="sec3_button">VIEW RANGE</button></a></li>
+									</ol>
+								</li>
+								<li class="pg_sec2_ol_ul_li1"><div class="sec_3_bann_cont"><img class="pg_sec4_img"><a href=""><button>VIEW RANGE</button></a></div></li>
+							</ul>
+						</li>
+						<li class="pg_sec3_cont_container">
+							<ul class="pg_sec2_ol_ul">
+								<li class="pg_sec2_ol_ul_li1"><div class="sec_3_bann_cont"><img class="pg_sec5_img"><a href=""><button>VIEW RANGE</button></a></div></li>
+								<li class="pg_sec2_ol_ul_li2">
+									<ol class="pg_sec2_ol_ol">
+										<li><div><img src="/mattress/image/Main Page/Mattress Range/twinkle.jpg"></div></li>
+										<li class="sec3_cont_tit"><p>CELEBRITY VIEW</p></li>
+										<li class="sec3_cont_p"><p>Pocket spring mattresses spreads the weight, making them ideal for restless sleepers</p></li>
+										<li><a href=""><button class="sec3_button">VIEW RANGE</button></a></li>
+									</ol>
+								</li>
+							</ul>
+						</li>
+						<li class="pg_sec3_cont_container">
+							<ul class="pg_sec2_ol_ul">
+								<li class="pg_sec2_ol_ul_li2">
+									<ol class="pg_sec2_ol_ol">
+										<li><div><img src="/mattress/image/Main Page/Mattress Range/twinkle.jpg"></div></li>
+										<li class="sec3_cont_tit"><p>CELEBRITY VIEW</p></li>
+										<li class="sec3_cont_p"><p>Orthopaedic mattresses are designed to help improve posture</p></li>
+										<li><a href=""><button class="sec3_button">VIEW RANGE</button></a></li>
+									</ol>
+								</li>
+								<li class="pg_sec2_ol_ul_li1"><div class="sec_3_bann_cont"><img class="pg_sec6_img"><a href=""><button>VIEW RANGE</button></a></div></li>
+							</ul>
+						</li>
+						<li class="pg_sec3_cont_container">
+							<ul class="pg_sec2_ol_ul">
+								<li class="pg_sec2_ol_ul_li1"><div class="sec_3_bann_cont"><img class="pg_sec7_img"><a href=""><button>VIEW RANGE</button></a></div></li>
+								<li class="pg_sec2_ol_ul_li2">
+									<ol class="pg_sec2_ol_ol">
+										<li><div><img src="/mattress/image/Main Page/Mattress Range/twinkle.jpg"></div></li>
+										<li class="sec3_cont_tit"><p>CELEBRITY VIEW</p></li>
+										<li class="sec3_cont_p"><p>Mattress-in-a-box comes with memory foam & cool gel technology</p></li>
+										<li><a href=""><button class="sec3_button">VIEW RANGE</button></a></li>
+									</ol>
+								</li>
+							</ul>
+						</li>
+					</ol>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<ol class="sec4_container_ol">
+						<li class="sec4_tit"><p>ACCESSORY COLLECTIONS</p></li>
+						<li class="sec4_cont_container sec4_container_desk">
+							<ul class="sec4_ul">
+								<a href="">
+									<li>
+										<div class="sec4_img_container"><img src="/mattress/image/Main Page/Accessory Collections/1.jpg"></div>
+										<div class="sec4_img_tit">MATTRESS PROTECTORS</div>
+									</li>
+								</a>
+								<a href="">
+									<li>
+										<div class="sec4_img_container"><img src="/mattress/image/Main Page/Accessory Collections/2.jpg"></div>
+										<div class="sec4_img_tit">MATTRESS TOPPERS</div>
+									</li>
+								</a>
+							</ul>
+							<ul class="sec4_ul">
+								<a href="">
+									<li>
+										<div class="sec4_img_container"><img src="/mattress/image/Main Page/Accessory Collections/3.jpg"></div>
+										<div class="sec4_img_tit">PILLOWS</div>
+									</li>
+								</a>
+								<a href="">
+									<li>
+										<div class="sec4_img_container"><img src="/mattress/image/Main Page/Accessory Collections/4.jpg"></div>
+										<div class="sec4_img_tit">DUVETS</div>
+									</li>
+								</a>
+							</ul>
+						</li>
+						<li class="sec4_cont_container sec4_container_mob">
+							<div id="carouselExampleIndicators2" class="carousel slide" data-interval="false">
+								<ol class="carousel-indicators slider_indicator_none">
+									<li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+									<li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+								</ol>
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<ul class="sec4_ul">
+											<a href="">
+												<li>
+													<div class="sec4_img_container"><img src="/mattress/image/Main Page/Accessory Collections/1.jpg"></div>
+													<div class="sec4_img_tit">MATTRESS PROTECTORS</div>
+												</li>
+											</a>
+											<a href="">
+												<li>
+													<div class="sec4_img_container"><img src="/mattress/image/Main Page/Accessory Collections/2.jpg"></div>
+													<div class="sec4_img_tit">MATTRESS TOPPERS</div>
+												</li>
+											</a>
+										</ul>
+									</div>
+									<div class="carousel-item">
+										<ul class="sec4_ul">
+											<a href="">
+												<li>
+													<div class="sec4_img_container"><img src="/mattress/image/Main Page/Accessory Collections/3.jpg"></div>
+													<div class="sec4_img_tit">PILLOWS</div>
+												</li>
+											</a>
+											<a href="">
+												<li>
+													<div class="sec4_img_container"><img src="/mattress/image/Main Page/Accessory Collections/4.jpg"></div>
+													<div class="sec4_img_tit">DUVETS</div>
+												</li>
+											</a>
+										</ul>
+									</div>
+								</div>
+								<a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
+						</li>						
+					</ol>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<ol class="sec5_container">
+						<li class="sec5_tit_cont">
+							<p class="sec5_tit">OUR ACCESSORY COLLECTION</p>
+						    <p class="sec5_st ">Is infused with organic ingredients</p>
+						</li>
+						<li class="sec5_cont_container sec5_container_desk">	
+								<ul class="sec5_slider_cont">
+									<li>
+										<div class="sec5_img_cont"><img src="/mattress/image/Main Page/Our Accessory Collections/1.jpg"></div>
+										<p class="sec5_img_tit">NEEM COLLECTION</p>
+										<button class="sec5_img_butt">SHOP NOW</button>
+									</li>
+									<li>
+										<div class="sec5_img_cont"><img src="/mattress/image/Main Page/Our Accessory Collections/2.jpg"></div>
+										<p class="sec5_img_tit">ARGAN OIL</p>
+										<button class="sec5_img_butt">SHOP NOW</button>
+									</li>
+									<li>
+										<div class="sec5_img_cont"><img src="/mattress/image/Main Page/Our Accessory Collections/3.jpg"></div>
+										<p class="sec5_img_tit">CHARCHOAL RANGE</p>
+										<button class="sec5_img_butt">SHOP NOW</button>
+									</li>
+									<li>
+										<div class="sec5_img_cont"><img src="/mattress/image/Main Page/Our Accessory Collections/4.jpg"></div>
+										<p class="sec5_img_tit">SILVADUR</p>
+										<button class="sec5_img_butt">SHOP NOW</button>
+									</li>
+								</ul>																					
+						</li>
+						<li class="sec5_cont_container sec5_container_mob">	
+							<div id="carouselExampleIndicators3" class="carousel slide" data-interval="false">
+								<ol class="carousel-indicators slider_indicator_none">
+									<li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+									<li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+								</ol>
+								<ul class="sec5_slider_cont">
+								  <div class="carousel-inner">
+									    <div class="carousel-item active">
+											<li>
+												<div class="sec5_img_cont"><img src="/mattress/image/Main Page/Our Accessory Collections/1.jpg"></div>
+												<p class="sec5_img_tit">NEEM COLLECTION</p>
+												<button class="sec5_img_butt">SHOP NOW</button>
+											</li>
+											<li>
+												<div class="sec5_img_cont"><img src="/mattress/image/Main Page/Our Accessory Collections/2.jpg"></div>
+												<p class="sec5_img_tit">ARGAN OIL</p>
+												<button class="sec5_img_butt">SHOP NOW</button>
+											</li>
+									    </div>
+										<div class="carousel-item">
+											<li>
+												<div class="sec5_img_cont"><img src="/mattress/image/Main Page/Our Accessory Collections/3.jpg"></div>
+												<p class="sec5_img_tit">CHARCOAL RANGE</p>
+												<button class="sec5_img_butt">SHOP NOW</button>
+											</li>
+											<li>
+												<div class="sec5_img_cont"><img src="/mattress/image/Main Page/Our Accessory Collections/4.jpg"></div>
+												<p class="sec5_img_tit">SILVADUR</p>
+												<button class="sec5_img_butt">SHOP NOW</button>
+											</li>
+									    </div>
+								  </div>
+								</ul>
+								  <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+								    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								    <span class="sr-only">Previous</span>
+								  </a>
+								  <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+								    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+								    <span class="sr-only">Next</span>
+								  </a>
+							</div>																				
+						</li>
+
+						<li class="sec5_fot_cont">
+							<p class="sec5_fot_tit">KNOW MORE ABOUT OUR MATTRESSES</p>
+							<p class="sec5_fot_p">Watch now</p>
+						</li>
+					</ol>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="sec6_vid_cont">
+						<video controls>
+							<source src="/mattress/image/Main Page/video/video.mp4" type="video/mp4">
+						</video>
+					</div>
+					<ol class="sec6_container">
+						<hr>
+						<li class="sec6_tit_cont"><p class="sec6_tit">FEW HAND-PICKED ARTICLES FOR YOU!</p></li>
+						<li>
+							<div class="sec6_blg_sec_desk">
+								<ul class="sec6_slider_cont">
+									<a href=""><li class="sec6_li"><div class="sec6_img_cont"><img src="/mattress/image/Main Page/Blog/1.jpg"></div></li></a>
+									<a href=""><li class="sec6_li"><div class="sec6_img_cont"><img src="/mattress/image/Main Page/Blog/2.jpg"></div></li></a>
+									<a href=""><li class="sec6_li"><div class="sec6_img_cont"><img src="/mattress/image/Main Page/Blog/3.jpg"></div></li></a>
+								</ul>
+								<button class="sec6_button">READ MORE</button>
+							</div>
+						</li>
+						<li>
+							<div class="sec6_blg_sec_mob">
+								<div id="carouselExampleIndicators4" class="carousel slide" data-interval="false">
+									<ol class="carousel-indicators courousel-bottom-sec6">
+										<li data-target="#carouselExampleIndicators4" data-slide-to="0" class="active"></li>
+										<li data-target="#carouselExampleIndicators4" data-slide-to="1"></li>
+									</ol>
+									<div class="carousel-inner">
+										<ul class="sec6_slider_cont">
+											<div class="carousel-item active">
+												<a href=""><li class="sec6_li"><div class="sec6_img_cont"><img src="/mattress/image/Main Page/Blog/1.jpg"></div></li></a>
+												<a href=""><li class="sec6_li"><div class="sec6_img_cont"><img src="/mattress/image/Main Page/Blog/1.jpg"></div></li></a>
+											</div>
+											<div class="carousel-item">
+												<a href=""><li class="sec6_li"><div class="sec6_img_cont"><img src="/mattress/image/Main Page/Blog/1.jpg"></div></li></a>
+												<a href=""><li class="sec6_li"><div class="sec6_img_cont"><img src="/mattress/image/Main Page/Blog/1.jpg"></div></li></a>
+											</div>
+										</ul>
+									</div>
+									<a class="carousel-control-prev" href="#carouselExampleIndicators4" role="button" data-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="carousel-control-next" href="#carouselExampleIndicators4" role="button" data-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
+								</div>									
+							</div>						
+						</li>
+					</ol>	
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
